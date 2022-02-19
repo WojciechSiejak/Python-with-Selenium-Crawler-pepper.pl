@@ -10,4 +10,4 @@ The script writes to files:
 - Urls
 - The name of the store
 - Thumbnail address and creates addresses for photos in higher resolution
-- W przypadku braku ceny lub nazwy sklepu generuję wyjątek w pliku.
+- If the price or the name of the store is missing, I generate an exception in the file.
