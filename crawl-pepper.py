@@ -10,7 +10,8 @@ xml_doc = ET.Element('root')
 PATH = "C:\Program Files (x86)\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
 
-liczbaStron = 40
+liczbaStron = input('How many pages you want to crawl?')
+
 id=0
 
 with open("test2.txt", "w" , encoding = "utf-8") as file:  
